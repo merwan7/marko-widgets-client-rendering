@@ -52,5 +52,9 @@ module.exports = require('marko-widgets').defineComponent({
         if (/^-?[0-9]+$/.test(newValue)) {
             this.setState('value', parseInt(newValue, 10));
         }
+    },
+    init: function() {
+        console.log('running init...');
     }
 });
+

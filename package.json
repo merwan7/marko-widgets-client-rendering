@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "lasso --main src/client.js --plugins lasso-marko --name bundle --inject-into index.html"
+    "build": "lasso --main src/client.js --plugins lasso-marko --name bundle --inject-into index.html --output-dir static"
   },
   "author": "",
   "license": "ISC",
@@ -13,6 +13,7 @@
     "lasso-cli": "^1.1.13",
     "lasso-marko": "^2.0.4",
     "marko": "^2.7.9",
-    "marko-widgets": "^5.0.0-beta.2"
+    "marko-widgets": "4.3.3"
   }
 }
+
